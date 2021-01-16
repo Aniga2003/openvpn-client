@@ -1,4 +1,4 @@
-FROM arm32v6/alpine
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm32v7-3.12
 COPY qemu-arm-static /usr/bin/
 MAINTAINER David Personette <dperson@gmail.com>
 
